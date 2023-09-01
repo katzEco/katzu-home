@@ -7,7 +7,8 @@ module.exports = {
 			whitesmoke: '#f5f5f5',
 			'living-coral': '#fe6e61',
 			overlay: 'rgba(0,0,0,0.4)',
-			skyBlue: '#7ec4cf'
+			skyBlue: '#7ec4cf',
+			mainBG: '#1F1F1F',
 		},
 		borderRadius: {
 			DEFAULT: '1rem'

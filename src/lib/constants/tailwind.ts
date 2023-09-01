@@ -8,7 +8,6 @@ const TW_CLASS = {
     xl: 'text-xl py-4',
     l: 'text-l py-2',
   },
-
 }
 
 export default TW_CLASS;
