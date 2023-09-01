@@ -2,7 +2,7 @@
   export let opacityClass: string
 </script>
 
-<section class={`w-full h-screen bg-mainBG flex flex-row justify-center text-center items-center ${opacityClass}`}>
+<section class={`w-full h-screen bg-mainBG flex flex-row justify-center text-center items-center duration-300 transition-all ${opacityClass} fixed top-0`}>
   <div class="loadingio-spinner-dual-ring-tw3p540qalc"><div class="ldio-fx072zb8ptj">
     <div></div>
     <div>
@@ -17,6 +17,17 @@
     0% { transform: rotate(0) }
     100% { transform: rotate(360deg) }
   }
+
+  @keyframes loadOut {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
+
   .ldio-fx072zb8ptj div { 
     box-sizing: border-box!important 
   }
