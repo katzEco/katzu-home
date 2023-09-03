@@ -1,42 +1,35 @@
 <script lang="ts">
-  const Button = "clipped-button p-2 bg-whitesmoke duration-300 hover:opacity-60"
+  import data from "$lib/modules/mainData"
 
-  const InnerButton = "w-full clipped-button p-4 bg-skyBlue"
+  const Button = "p-4 bg-skyBlue rounded duration-300 hover:opacity-60 hover:scale-90"
 </script>
 
 <section>
-  <div class={`indexHeader w-full h-screen bg-mainBG text-whitesmoke flex flex-col justify-center items-center text-center gap-6`}>
-    <div class="clipped p-2 w-[600px] bg-whitesmoke">
-      <div class={`textHeader clipped bg-[#fe6e6f] w-[100%] text-center py-4`}>
-        <p class="text-5xl text-whitesmoke">
-          Suphakit P.
-        </p>
-      </div>
+  <div class={`indexHeader w-full h-screen bg-mainBG text-whitesmoke flex flex-col justify-center items-center text-center gap-4`}>
+    <div class="heading-holder">
+      <p class="text-5xl py-2">
+        {data.sName}
+      </p>
+      <p class="text-xl py-2 text-[grey]">
+        {data.description}
+      </p>
     </div>
 
-    <div class="flex flex-row flex-wrap justify-center gap-4">
-      <a class={Button} href="#About">
-        <div class="w-full clipped-button p-4 bg-skyBlue">
-          About Me
-        </div>
+    <div class="buttonHolder flex flex-row gap-4 justify-center text-center">
+      <a href="/about" class={Button}>
+        About
       </a>
 
-      <a class={Button} href="/certificate">
-        <div class={InnerButton}>
-          Certificates
-        </div>
+      <a href="/certs" class={Button}>
+        Certificate
       </a>
 
-      <a class={Button} href="/commission">
-        <div class={InnerButton}>
-          Commission
-        </div>
+      <a href="/commission" class={Button}>
+        Commission
       </a>
-      
-      <a class={Button} href="/contact">
-        <div class={InnerButton}>
-          Contact
-        </div>
+
+      <a href="/contacts" class={Button}>
+        Contacts
       </a>
     </div>
   </div>
@@ -45,16 +38,6 @@
 <style>
   .indexHeader {
     animation: afterLoad .3s;
-  }
-
-  .clipped {
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
-
-  .clipped-button {
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
   }
 
   @keyframes afterLoad {
