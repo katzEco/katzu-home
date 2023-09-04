@@ -1,34 +1,39 @@
 <script lang="ts">
   import data from "$lib/modules/mainData"
 
-  const Button = "p-4 bg-skyBlue rounded duration-300 hover:opacity-60 hover:scale-90"
+  const Button = "w-[40%] md:w-full p-4 bg-living-coral rounded duration-300 shadow-lg shadow-[grey] hover:shadow-sm hover:opacity-60 hover:scale-90"
 </script>
 
 <section>
-  <div class={`indexHeader w-full h-screen bg-mainBG text-whitesmoke flex flex-col justify-center items-center text-center gap-4`}>
-    <div class="heading-holder">
-      <p class="text-5xl py-2">
-        {data.sName}
-      </p>
-      <p class="text-xl py-2 text-[grey]">
-        {data.description}
-      </p>
+  <div class={`indexHeader w-full h-screen bg-mainBG text-whitesmoke flex flex-col justify-center items-center text-center gap-8`}>
+    <div class="heading-holder p-4 rounded bg-whitesmoke flex flex-col gap-2 shadow-lg shadow-whitesmoke hover:shadow-living-coral hover:border-living-coral hover:border-solid border-whitesmoke border-2">
+      <div class="!justify-end !text-right w-full">
+        <img src={data.image} alt="profile" class="w-[100px] h-auto rounded-[100%] ml-auto border-2 border-living-coral border-solid p-1">
+      </div>
+      <div class="!text-left">
+        <p class="text-4xl py-2 text-pastel-black">
+          {data.sName}
+        </p>
+        <p class="text-xl py-2 text-[grey]">
+          {data.description}
+        </p>
+      </div>
     </div>
 
-    <div class="buttonHolder flex flex-row gap-4 justify-center text-center">
-      <a href="/about" class={Button}>
+    <div class="buttonHolder w-full md:w-[80%] flex flex-row flex-wrap md:flex-nowrap gap-4 justify-center text-center">
+      <a href="/about" class={Button} id="about">
         About
       </a>
 
-      <a href="/certs" class={Button}>
+      <a href="/certs" class={Button} id="certs">
         Certificate
       </a>
 
-      <a href="/commission" class={Button}>
+      <a href="/commission" class={Button} id="commission">
         Commission
       </a>
 
-      <a href="/contacts" class={Button}>
+      <a href="/contacts" class={Button} id="contacts">
         Contacts
       </a>
     </div>

@@ -17,12 +17,16 @@
   }, 1000)
 </script>
 
+<svelte:head>
+  <title>Index | Suphakit P.</title>
+</svelte:head>
+
 {#if loading}
   <Loading opacityClass="" />
 {:else}
   {#if count == 3}
-    <PreLoad />
     <Loading opacityClass="loadOut opacity-0" />
+    <PreLoad/>
   {:else}
     <IndexPage />
   {/if}
