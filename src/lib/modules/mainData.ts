@@ -21,11 +21,25 @@ const UserData = {
         endDate: "2018"
       },
       {
-        school: "Darasamutr Sriracha School.",
-        classroom: "",
+        school: "Piboonbumpen Demonstration School",
+        classroom: "Sci-Math",
         grade: "Grade 10",
-        startDate: "2005",
-        endDate: "2014"
+        startDate: "2018",
+        endDate: "2019"
+      },
+      {
+        school: "Darasamutr Sriracha School",
+        classroom: "Sci-Math",
+        grade: "Grade 11 - 12",
+        startDate: "2019",
+        endDate: "April 2021"
+      },
+      {
+        school: "University of Phayao",
+        classroom: "Computer Engineering",
+        grade: "Bachelor's degree",
+        startDate: "May 2021",
+        endDate: "Present"
       }
     ]
   }
