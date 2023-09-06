@@ -199,6 +199,22 @@ const UserData = {
         alt: "zapier"
       }
     ]
+  },
+  certs: {
+    events: [
+      {
+        name: "TESA Top Gun Rally #16",
+        desp: " 5-10 Sept. 2022 @ Chitralada Technology Institute ",
+        img: "https://media.discordapp.net/attachments/881255967784845352/1148885551928324117/000001.jpg"
+      }
+    ],
+    certs: [
+      {
+        name: "TESA Top Gun Rally #16",
+        desp: "Participate in TESA Top Gun Rally #16",
+        img: "https://media.discordapp.net/attachments/881255967784845352/1148885552544894996/TESA-CERT.jpg"
+      }
+    ]
   }
 }
 
