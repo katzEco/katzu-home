@@ -44,13 +44,13 @@ const UserData = {
     ],
     skills: [
       {
-        img: "https://cordova.apache.org/",
-        link: "https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg",
+        img: "https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg",
+        link: "https://cordova.apache.org/",
         alt: "cordova"
       },
       {
-        img: "https://getbootstrap.com",
-        link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
+        img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
+        link: "https://getbootstrap.com",
         alt: "bootstrap"
       },
       {
