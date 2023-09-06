@@ -12,7 +12,7 @@
   <Navbar />
   <div class="contentContainer w-full md:w-[90%] mx-auto">
     <div class="w-full py-6"></div>
-    <div class="header w-full h-[40vh] mx-auto !bg-center !bg-cover !bg-no-repeat md:rounded-b relative z-0" style="background: url(https://picsum.photos/2580/1080);">
+    <div class="header w-full h-[40vh] mx-auto !bg-center !bg-cover !bg-no-repeat md:rounded-b relative z-0" style="background: url(https://frame.caffe.quest/cdn);">
       <div class="w-full h-full bg-[rgba(0,0,0,0.7)] flex flex-col items-center justify-center text-center backdrop-blur-md md:rounded-b z-10">
         <p class="text-4xl py-4 text-ctp-text">
           About
@@ -76,7 +76,7 @@
         <div class="w-[80%] mx-auto gap-2 flex flex-row flex-wrap text-center justify-center">
           {#each data.skills as skill }
             <a href={skill.link} class={`bg-ctp-base hover:bg-ctp-overlay1 rounded p-2 flex flex-row items-center`} target="_blank">
-              <img src={skill.img} alt={skill.alt} class="w-[45px] h-auto">
+              <img src={skill.img} alt={skill.alt} class="w-[45px] h-[45px]">
             </a>
           {/each}
         </div>
