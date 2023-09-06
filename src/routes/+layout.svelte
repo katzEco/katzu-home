@@ -2,7 +2,7 @@
 	import './main.css';
 </script>
 
-<div class="bg-mainBG text-whitesmoke min-h-screen w-full">
+<div class="min-h-screen w-full bg-ctp-base text-ctp-text">
 	<main>
 		<slot />
 	</main>

@@ -1,5 +1,5 @@
-<section class="w-full h-screen fixed top-0 bg-mainBG flex flex-row justify-center items-center">
-  <div class="preload bg-whitesmoke h-screen">
+<section class="w-full h-screen fixed top-0 bg-ctp-base flex flex-row justify-center items-center">
+  <div class="preload bg-ctp-text h-screen">
 
   </div>
 </section>

@@ -1,11 +1,11 @@
 <script lang="ts">
   import { page } from "$app/stores";
 
-  const Button = "p-4 hover:opacity-80 bg-mainBG hover:bg-pastel-black"
-  const ActiveButton = `${Button} !opacity-80 !bg-pastel-black`
+  const Button = "p-4 hover:opacity-80 bg-cpt-base hover:bg-ctp-overlay0 hover:text-ctp-sapphire"
+  const ActiveButton = `${Button} !opacity-80 !bg-ctp-overlay0 !text-ctp-sapphire`
 </script>
 
-<section class="w-full flex flex-row">
+<section class="w-full flex flex-row fixed top-0 z-10 bg-ctp-base">
   <div class="left w-full flex flex-row justify-start text-left">
     <a href="/" class={Button}>
       Suphakit P.
