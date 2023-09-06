@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { browser } from "$app/environment";
+
 	import Index from "$lib/components/Pages/Index.svelte";
   import Loading from "$lib/components/Loading.svelte";
 	import PreLoad from "$lib/components/PreLoad.svelte";
@@ -11,6 +13,9 @@
       loading = false
     } else if (count === 4 ) {
       clearInterval(LoadingCount)
+      if (browser) {
+        window.localStorage.setItem('count', String(count))
+      }
     }
 
     count += 1
