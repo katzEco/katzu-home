@@ -1,5 +1,5 @@
 <script lang="ts">
-	import IndexPage from "$lib/components/IndexPage.svelte";
+	import Index from "$lib/components/Pages/Index.svelte";
   import Loading from "$lib/components/Loading.svelte";
 	import PreLoad from "$lib/components/PreLoad.svelte";
 
@@ -28,6 +28,6 @@
     <Loading opacityClass="loadOut opacity-0" />
     <PreLoad/>
   {:else}
-    <IndexPage />
+    <Index />
   {/if}
 {/if}
