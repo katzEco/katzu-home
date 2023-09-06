@@ -40,7 +40,7 @@
         Commission
       </a>
     {:else}
-      <a href="/Commission" class={Button}>
+      <a href="/commission" class={Button}>
         Commission
       </a>
     {/if}
