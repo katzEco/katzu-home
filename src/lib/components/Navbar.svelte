@@ -23,6 +23,17 @@
       </a>
     {/if}
 
+    {#if $page.url.pathname == '/works'}
+      <!-- svelte-ignore a11y-invalid-attribute -->
+      <a href="#" class={ActiveButton}>
+        Works
+      </a>
+    {:else}
+      <a href="/works" class={Button}>
+        Works
+      </a>
+    {/if}
+
     {#if $page.url.pathname == '/certs'}
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a href="#" class={ActiveButton}>

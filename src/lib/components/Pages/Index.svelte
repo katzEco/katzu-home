@@ -20,13 +20,17 @@
       </div>
     </div>
 
-    <div class="buttonHolder w-full md:w-[80%] flex flex-row flex-wrap md:flex-nowrap gap-4 justify-center text-center">
+    <div class="buttonHolder w-[80%] md:w-[50%] flex flex-row flex-wrap md:flex-nowrap gap-4 justify-center text-center">
       <a href="/about" class={Button} id="about">
         About
       </a>
 
+      <a href="/works" class={Button} id="certs">
+        My Works
+      </a>
+
       <a href="/certs" class={Button} id="certs">
-        Certificate
+        Certificates
       </a>
 
       <a href="/commission" class={Button} id="commission">
