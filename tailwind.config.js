@@ -1,3 +1,5 @@
+import * as catppucchin from '@catppuccin/tailwindcss'
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
@@ -19,5 +21,10 @@ module.exports = {
 			}
 		}
 	},
-	plugins: []
+	plugins: [
+		catppucchin.default({
+			prefix: "ctp",
+      defaultFlavour: "macchiato",
+		})
+	]
 };
