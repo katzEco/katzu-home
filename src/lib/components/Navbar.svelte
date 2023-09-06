@@ -41,7 +41,7 @@
       </a>
     {:else}
       <a href="/Commission" class={Button}>
-        Certificates
+        Commission
       </a>
     {/if}
 
