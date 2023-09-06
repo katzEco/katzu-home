@@ -5,7 +5,7 @@
   const ActiveButton = `${Button} !opacity-80 !bg-ctp-overlay0 !text-ctp-sapphire`
 </script>
 
-<section class="w-full flex flex-row fixed top-0 z-10 bg-ctp-base">
+<section class="w-full flex flex-row fixed top-0 z-30 bg-ctp-base">
   <div class="left w-full flex flex-row justify-start text-left">
     <a href="/" class={Button}>
       Suphakit P.
