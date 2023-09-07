@@ -2,6 +2,62 @@ const UserData = {
   sName: "Suphakit P.",
   description: "A music composer who can code :)",
   image: "https://avatars.githubusercontent.com/u/25049577?v=4",
+  works: {
+    music: [
+      {
+        name: "katsuragi.wav",
+        desp: "A music channel that contain all of my original songs",
+        img: "https://media.discordapp.net/attachments/1133696233177890816/1139968953771380787/New_Profile.png",
+        link: "https://t.can-i.cyou/katz-wav/",
+      },
+      {
+        name: "katsu.json",
+        desp: "My music cover channel that including some original songs :)",
+        img: "https://media.discordapp.net/attachments/1133696233177890816/1149042475021901988/download20230904010419.png",
+        link: "https://t.can-i.cyou/katsu.json/",
+      },
+      {
+        name: "katsu.json - a luv.ly day",
+        desp: "My 1st VTuber Theme song commission",
+        img: "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ae/9a/34/ae9a34a6-64ca-f3eb-6a2e-ac5e528e8366/7321170544358.png/316x316bb.webp",
+        link: "https://t.can-i.cyou/katsu.json/a-luv.ly-day/",
+      },
+      {
+        name: "katsu.json - Ambient of the Lake",
+        desp: "Vtuber Theme song commission",
+        img: "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/29/b8/41/29b8418d-7173-14db-5b6d-a6cae90ed8e6/7321170617236.png/296x296bb.webp",
+        link: "https://t.can-i.cyou/katsu.json/ambient-of-the-lake/",
+      },
+      {
+        name: "Anxiowaldosiaticist - Rotten Butterflies",
+        desp: "Composed & Co-Produced that I proudly presented.",
+        img: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/d0/03/75d00372-1cd9-6b34-899d-ad4eeb22f4d0/7321170657478.png/3000x3000bb.webp",
+        link: "https://t.can-i.cyou/axio/rotten-butterflies/",
+      }
+    ],
+    coding: [
+      {
+        name: "Darken-World",
+        desp: "My VSCode's Theme that I made because of I can't find a color theme that I want",
+        url: "https://github.com/dethMastery/Darken-World",
+      },
+      {
+        name: "my-generated-vibe-on-static-html",
+        desp: "A javascript file that used to place on html and make some webpage :)",
+        url: "https://github.com/dethMastery/my-generated-vibe-on-static-html",
+      },
+      {
+        name: "2023",
+        desp: "A repository that show my works in 2023",
+        url: "https://github.com/dethMastery/2023",
+      },
+      {
+        name: "canvas-watermark",
+        desp: "A nodejs cli-based that can use to create a watermark to your bunch of photo which is powered by canvas",
+        url: "https://github.com/dethMastery/canvas-watermark",
+      },
+    ]
+  },
   about: {
     name: "Suphakit Pinyoworapot",
     age: 1024074000000,
@@ -215,7 +271,7 @@ const UserData = {
         img: "https://media.discordapp.net/attachments/881255967784845352/1148885552544894996/TESA-CERT.jpg"
       }
     ]
-  }
+  },
 }
 
 export default UserData
