@@ -334,6 +334,20 @@ const UserData = {
       color: "bg-[#1c9aee] text-ctp-text",
       icon: "fa-brands fa-twitter"
     },
+  ],
+  donate: [
+    {
+      Address: "Promptpay: 0944264826",
+      Receiver: "Suphakit Pinyoworapot"
+    },
+    {
+      Address: "Kasikorn Bank: 066-8-69930-8",
+      Receiver: "Suphakit Pinyoworapot"
+    },
+    {
+      Address: "True Wallet: 0944264826",
+      Receiver: "Suphakit Pinyoworapot"
+    }
   ]
 }
 
