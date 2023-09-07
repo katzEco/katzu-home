@@ -46,7 +46,7 @@
         </p>
 
         <div class="w-full mx-auto gap-4 flex flex-row flex-wrap text-center justify-center pb-8">
-          {#each data.education as education}
+          {#each data.education.reverse() as education}
             <div class="p-4 w-[40%] bg-ctp-base text-ctp-text rounded">
               <p class="text-[18px]">
                 {education.school}

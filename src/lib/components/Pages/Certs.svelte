@@ -28,7 +28,7 @@
         </p>
 
         <div class="w-[80%] mx-auto gap-2 flex flex-row flex-wrap text-center justify-center">
-          {#each data.events as event }
+          {#each data.events.reverse() as event }
             <div class="w-[18rem] bg-ctp-base text-ctp-text rounded p-1 flex flex-col">
               <div class="w-full h-[10rem] rounded-t !bg-center !bg-cover !bg-no-repeat" style={`background: url(${event.img})`}></div>
               <div class="p-4">
@@ -51,7 +51,7 @@
         </p>
 
         <div class="w-[80%] mx-auto gap-2 flex flex-row flex-wrap text-center justify-center">
-          {#each data.certs as event }
+          {#each data.certs.reverse() as event }
             <div class="w-[18rem] bg-ctp-base text-ctp-text rounded p-1 flex flex-col">
               <div class="w-full h-[10rem] rounded-t !bg-center !bg-cover !bg-no-repeat" style={`background: url(${event.img})`}></div>
               <div class="p-4">
