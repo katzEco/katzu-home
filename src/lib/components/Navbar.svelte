@@ -11,7 +11,7 @@
       Suphakit P.
     </a>
   </div>
-  <div class="right w-full flex-row justify-end text-right py-4">
+  <div class="right w-full flex flex-row justify-end text-right">
     {#if $page.url.pathname == '/about'}
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a href="#" class={ActiveButton}>
