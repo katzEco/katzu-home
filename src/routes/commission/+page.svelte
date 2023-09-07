@@ -27,7 +27,7 @@
 </script>
 
 <svelte:head>
-  <title>Works | Suphakit P.</title>
+  <title>Commission | Suphakit P.</title>
 </svelte:head>
 
 {#if loading}
