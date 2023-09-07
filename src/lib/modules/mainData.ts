@@ -272,6 +272,31 @@ const UserData = {
       }
     ]
   },
+  commission: {
+    contact: "mailto:me@suphakit.net",
+    music: [
+      {
+        name: "Editing your sound",
+        desp: "Clearing noise, Tuning or Edit timing your voice for your song",
+        price: "Started @ 1000 THB",
+      },
+      {
+        name: "Mix & Mastering",
+        desp: "Mix & Mastering service for your song",
+        price: "Started @ 2000 THB",
+      },
+      {
+        name: "Composing",
+        desp: "Composing melody & lyric (like making a based of your song)",
+        price: "Started @ 3500 THB",
+      },
+      {
+        name: "Arrangement",
+        desp: "Arranging everything on your almost complete song",
+        price: "Started @ 4500 THB",
+      },
+    ]
+  }
 }
 
 export default UserData
