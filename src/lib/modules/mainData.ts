@@ -296,7 +296,45 @@ const UserData = {
         price: "Started @ 4500 THB",
       },
     ]
-  }
+  },
+  contact: [
+    {
+      name: "Email",
+      url: "mailto:me@suphakit.net",
+      color: "bg-ctp-sapphire text-ctp-base hover:!text-ctp-base",
+      icon: "fa-regular fa-envelope"
+    },
+    {
+      name: "Github",
+      url: "https://github.com/dethMastery",
+      color: "bg-ctp-base text-ctp-text",
+      icon: "fa-brands fa-github"
+    },
+    {
+      name: "Blog",
+      url: "https://blog.suphakit.net",
+      color: "bg-ctp-maroon text-ctp-base hover:!text-ctp-base",
+      icon: "fa-solid fa-rss"
+    },
+    {
+      name: "Discord",
+      url: "https://discordid.netlify.app/?id=298415109359796234",
+      color: "bg-[#7289da] text-ctp-text",
+      icon: "fa-brands fa-discord"
+    },
+    {
+      name: "Facebook",
+      url: "https://fb.com/detzz.in.th",
+      color: "bg-[#2f89fe] text-ctp-text",
+      icon: "fa-brands fa-facebook"
+    },
+    {
+      name: "X",
+      url: "https://x.com/georgeKdeterk",
+      color: "bg-[#1c9aee] text-ctp-text",
+      icon: "fa-brands fa-twitter"
+    },
+  ]
 }
 
 export default UserData
