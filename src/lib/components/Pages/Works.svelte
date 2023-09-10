@@ -33,7 +33,7 @@
             <div class="w-[18rem] bg-ctp-base text-ctp-text rounded p-1 flex flex-col">
               <div class="w-full h-[18rem] rounded-t !bg-center !bg-cover !bg-no-repeat" style={`background: url(${event.img})`}></div>
               <div class="p-4">
-                <a class={`${TW_CLASS.link} text-xl`} href={event.link}>
+                <a class={`${TW_CLASS.link} text-xl`} href={event.link} target="_blank">
                   {event.name}
                 </a>
                 <div class="w-[80%] border-solid border-ctp-text border-b-2 mx-auto my-2"></div>
@@ -55,7 +55,7 @@
           {#each data.coding as event }
             <div class="w-[18rem] bg-ctp-base text-ctp-text rounded p-1 flex flex-col">
               <div class="p-4">
-                <a class={`${TW_CLASS.link} text-xl`} href={event.url}>
+                <a class={`${TW_CLASS.link} text-xl`} href={event.url} target="_blank">
                   {event.name}
                 </a>
                 <div class="w-[80%] border-solid border-ctp-text border-b-2 mx-auto my-2"></div>

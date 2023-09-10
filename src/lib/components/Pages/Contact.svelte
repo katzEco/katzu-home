@@ -26,7 +26,7 @@
       <div class="w-full mx-auto text-lg">
         <div class="w-[80%] mx-auto gap-4 gap-y-6 flex flex-row flex-wrap text-center justify-center">
           {#each data as event }
-            <a class={`${TW_CLASS.link} ${event.color} block w-full md:w-[40%] text-xl p-4 rounded !no-underline hover:scale-95`} href={event.url}>
+            <a class={`${TW_CLASS.link} ${event.color} block w-full md:w-[40%] text-xl p-4 rounded !no-underline hover:scale-95`} href={event.url} target="_blank">
               <i class={event.icon}></i> &nbsp;{event.name}
             </a>
           {/each}
